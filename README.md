@@ -1,5 +1,5 @@
 This is a Springboot application that would have a POST endpoint which delegates to the service layer to pick  a third party mail service either SendGrid or Mailgun
-Currently uses a logic that picks one of the mailclients and invokes the 3rd API via an API client (Using Sendgrid's internal http client for Sendgrid and OkHttp for Mailgun)
+Currently uses a basic logic to determine which mailclient to pick and invokes the 3rd API via an API client (Using Sendgrid's internal http client for Sendgrid and OkHttp for Mailgun)
 
 Technologies
 Springboot

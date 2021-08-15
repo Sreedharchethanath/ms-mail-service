@@ -8,6 +8,8 @@ Java8
 Sendgrid client library
 OkHttp Http client library
 
+Please note you would require to register with Mailgun and SendGrid and retrive an API Key and place it in application.properties before invoking!
+
 
 TODO or features to implement
 1) Implement the controller and controller advice
